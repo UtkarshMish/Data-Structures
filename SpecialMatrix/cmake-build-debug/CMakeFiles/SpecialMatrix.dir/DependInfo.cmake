@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/abhis/Desktop/Projects/C++/SpecialMatrix/main.cpp" "C:/Users/abhis/Desktop/Projects/C++/SpecialMatrix/cmake-build-debug/CMakeFiles/SpecialMatrix.dir/main.cpp.obj"
+  "C:/Users/abhis/Desktop/Projects/C++/Data-Structures/SpecialMatrix/main.cpp" "C:/Users/abhis/Desktop/Projects/C++/Data-Structures/SpecialMatrix/cmake-build-debug/CMakeFiles/SpecialMatrix.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 
