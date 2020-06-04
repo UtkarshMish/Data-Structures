@@ -1,0 +1,4 @@
+#ifndef EpowM_H
+#define EpowM_H
+int pow(int &a, int &b);
+#endif
