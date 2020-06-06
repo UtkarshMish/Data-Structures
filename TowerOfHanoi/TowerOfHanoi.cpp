@@ -9,7 +9,7 @@ void TOH(int n, int A, int B, int C)
     TOH(n - 1, B, A, C);
   }
 }
-main()
+int main()
 {
   int A = 1, B = 2, C = 3, n;
 

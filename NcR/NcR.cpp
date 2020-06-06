@@ -12,7 +12,7 @@ int C(int n, int r)
   }
 }
 
-main()
+int main()
 {
   int n, r;
   cout << "Enter N and R values ==>";

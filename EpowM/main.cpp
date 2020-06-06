@@ -1,5 +1,5 @@
 #include <iostream>
-#include "src/EpowM"
+#include "EpowM.h"
 using namespace std;
 
 int main()

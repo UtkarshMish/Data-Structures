@@ -1,5 +1,5 @@
 
-#include_next "EpowM"
+#include "EpowM.h"
 
 int pow(int &a, int &b)
 {

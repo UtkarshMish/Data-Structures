@@ -3,6 +3,12 @@ project(Data-Structures)
 
 set(CMAKE_CXX_STANDARD 20)
 
+add_subdirectory (NcR)
+add_subdirectory (2Darray)
+add_subdirectory (EpowM)
+add_subdirectory (Fibonacci)
+add_subdirectory (TowerOfHanoi)
+add_subdirectory (TaylorSeries)
 add_subdirectory (SpecialMatrix)
 add_subdirectory(SparseMatrix)
 add_subdirectory(reverse)

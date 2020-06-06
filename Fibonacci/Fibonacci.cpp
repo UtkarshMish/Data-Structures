@@ -51,7 +51,7 @@ int fibonacci(int n, int *values)
     return values[n];
   }
 }
-main()
+int main()
 {
   int n;
   cout << "Enter the N for Fibonacci ==>";
