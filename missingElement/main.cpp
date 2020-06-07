@@ -66,12 +66,17 @@ public:
         cout<<endl;
     }
     void findSum(int sum){
+        bool found = false;
         cout<<" Elements are -"<<endl;
         for(int i=0;i<=size - 1;i++){
             int diff = sum - item[i];
             if(Hashed[diff] && (Hashed[diff]>0)){
+                found = true;
                 cout<<item[i]<< " and " << diff <<endl;
             }
+        }
+        if(!found){
+            cout<<"None";
         }
     }
 
