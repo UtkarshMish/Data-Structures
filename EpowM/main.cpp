@@ -6,10 +6,10 @@ int main()
 {
 
   int m, n;
-  cout << "Enter m and n";
+  cout << "Enter m and n: ";
   cin >> m >> n;
   cout << endl;
-  int result = pow(m, n);
-  cout << result;
+  int result = pow(m,n);
+  cout <<"Result -->  "<< result;
   return 0;
 }

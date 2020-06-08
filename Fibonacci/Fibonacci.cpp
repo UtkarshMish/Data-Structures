@@ -28,7 +28,7 @@ using namespace std;
 //     }
 //   }
 // }
-int fibonacci(int n, int *values)
+int fibonacci(int n, int values[])
 {
 
   if (n <= 1)
@@ -57,17 +57,17 @@ int main()
   cout << "Enter the N for Fibonacci ==>";
   cin >> n;
   cout << endl;
-  int *values = new int[n];
-  for (int i = 0; i <= n; i++)
+  int *values;
+  values= new int[n];
+  for (int i = 0; i < n; i++)
   {
     values[i] = -1;
   }
   int result = fibonacci(n, values);
   cout << result << endl;
-  for (int i = 0; i <= n; i++)
+  for (int i = 0; i < n; i++)
   {
     cout << values[i] << "  ";
   }
-  delete[] values;
   return 0;
 }
