@@ -4,6 +4,7 @@ project(Data-Structures)
 set(CMAKE_CXX_STANDARD 20)
 
 add_subdirectory (NcR)
+add_subdirectory (Stack)
 add_subdirectory (2Darray)
 add_subdirectory (EpowM)
 add_subdirectory (Fibonacci)
