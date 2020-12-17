@@ -1,5 +1,4 @@
 #include "iostream"
-#include <vector>
 #include "stack"
 using namespace std;
 int main()
@@ -21,5 +20,6 @@ int main()
         cout << items.top() << endl;
         items.pop();
     }
-    return 0;
+
+
 }
