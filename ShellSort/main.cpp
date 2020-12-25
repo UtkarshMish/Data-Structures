@@ -1,37 +1,23 @@
 #include "iostream"
 
-void Swap(int item[], int eleA, int eleB);
-
 using namespace std;
-void shellSort(int item[],int n) {
-    int gap = n/2;
-    while(gap > 0) {
-        for (int i = 0; i < n; i ++) {
-            int prev =i-gap;
-            int next = i+gap;
-            while(next < n) {
-                if (item[i] > item[next]) {
-                    Swap(item, i, next);
-
-                }
-                next = next+gap;
+void shellSort(int item[], int n)
+{
+    int gap,i,j,temp;
+    for(gap=n/2;gap>=1;gap/=2)
+    {
+        for(i=gap;i<n;i++)
+        {
+            temp=item[i];
+            j=i-gap;
+            while(j>=0 && item[j] > temp)
+            {
+                item[j + gap]=item[j];
+                j=j-gap;
             }
-
-            while (prev >= 0) {
-                if (item[i - gap] > item[i]) {
-                    Swap(item, i - gap, i);
-                }
-                prev = prev-gap;
-            }
+            item[j + gap]=temp;
         }
-        gap = gap /= 2;
     }
-}
-
-void Swap(int item[], int eleA, int eleB) {
-    int temp = item[eleA];
-    item[eleA] = item[eleB];
-    item[eleB] = temp;
 }
 
 int main(){

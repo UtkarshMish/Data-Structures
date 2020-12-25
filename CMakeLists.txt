@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.16)
 project(Data-Structures)
 
 set(CMAKE_CXX_STANDARD 20)
+add_subdirectory (CheckPrime)
 add_subdirectory (ShellSort)
 add_subdirectory (RadixSort)
 add_subdirectory (NcR)

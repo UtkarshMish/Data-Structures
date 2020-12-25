@@ -2,10 +2,14 @@
 # Created by https://www.toptal.com/developers/gitignore/api/c++
 # Edit at https://www.toptal.com/developers/gitignore?templates=c++
 .vscode
+*\.vscode
 .vscode\*
-.idea
-cmake-build-debug
 
+.idea
+*\.idea
+
+cmake-build-debug
+*\cmake-build-debug
 cmake-build-debug-coverage
 build
 ### C++ ###
