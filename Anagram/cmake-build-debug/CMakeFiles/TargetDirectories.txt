@@ -1,3 +1,0 @@
-C:/Users/abhis/Desktop/Projects/C++/Anagram/cmake-build-debug/CMakeFiles/Anagram.dir
-C:/Users/abhis/Desktop/Projects/C++/Anagram/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/abhis/Desktop/Projects/C++/Anagram/cmake-build-debug/CMakeFiles/rebuild_cache.dir
